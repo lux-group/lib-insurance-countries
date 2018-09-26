@@ -1,7 +1,11 @@
-﻿var countries = [
+﻿﻿var countries = [
   {
     code: 'AF',
     name: 'Afghanistan'
+  },
+  {
+    code: 'AX',
+    name: 'Aland Islands'
   },
   {
     code: 'AL',
@@ -68,10 +72,6 @@
     name: 'Bahrain'
   },
   {
-    code: 'IG',
-    name: 'Bali'
-  },
-  {
     code: 'BD',
     name: 'Bangladesh'
   },
@@ -108,6 +108,10 @@
     name: 'Bolivia'
   },
   {
+    code: 'BQ',
+    name: 'Bonaire, Sint Eustatius & Saba'
+  },
+  {
     code: 'BA',
     name: 'Bosnia And Herzegovina'
   },
@@ -116,12 +120,20 @@
     name: 'Botswana'
   },
   {
+    code: 'BV',
+    name: 'Bouvet Island'
+  },
+  {
     code: 'BR',
     name: 'Brazil'
   },
   {
+    code: 'IO',
+    name: 'British Indian Ocean Territory'
+  },
+  {
     code: 'BN',
-    name: 'Brunei'
+    name: 'Brunei Darussalam'
   },
   {
     code: 'BG',
@@ -177,7 +189,7 @@
   },
   {
     code: 'CC',
-    name: 'Cocos Keeling Islands'
+    name: 'Cocos (Keeling) Islands'
   },
   {
     code: 'CO',
@@ -193,7 +205,7 @@
   },
   {
     code: 'CD',
-    name: 'Congo Democratic Rep'
+    name: 'Congo, Democratic Rep'
   },
   {
     code: 'CK',
@@ -205,7 +217,7 @@
   },
   {
     code: 'CI',
-    name: 'Cote Divoire'
+    name: 'Cote D\'ivoire'
   },
   {
     code: 'HR',
@@ -214,6 +226,10 @@
   {
     code: 'CU',
     name: 'Cuba'
+  },
+  {
+    code: 'CW',
+    name: 'Curacao'
   },
   {
     code: 'CY',
@@ -238,10 +254,6 @@
   {
     code: 'DO',
     name: 'Dominican Republic'
-  },
-  {
-    code: 'TL',
-    name: 'East Timor'
   },
   {
     code: 'EC',
@@ -272,16 +284,12 @@
     name: 'Ethiopia'
   },
   {
-    code: '',
-    name: 'Europe'
+    code: 'FK',
+    name: 'Falkland Islands (Malvinas)'
   },
   {
     code: 'FO',
-    name: 'Faeroe Islands'
-  },
-  {
-    code: 'FK',
-    name: 'Falkland Islands'
+    name: 'Faroe Islands'
   },
   {
     code: 'FJ',
@@ -297,11 +305,15 @@
   },
   {
     code: 'GF',
-    name: 'French Guyana'
+    name: 'French Guiana'
   },
   {
     code: 'PF',
     name: 'French Polynesia'
+  },
+  {
+    code: 'TF',
+    name: 'French Southern Territories'
   },
   {
     code: 'GA',
@@ -352,12 +364,16 @@
     name: 'Guatemala'
   },
   {
+    code: 'GG',
+    name: 'Guernsey'
+  },
+  {
     code: 'GN',
     name: 'Guinea'
   },
   {
     code: 'GW',
-    name: 'Guineabissau'
+    name: 'Guinea-bissau'
   },
   {
     code: 'GY',
@@ -368,8 +384,12 @@
     name: 'Haiti'
   },
   {
-    code: 'US',
-    name: 'Hawaii'
+    code: 'HM',
+    name: 'Heard Island & Mcdonald Island'
+  },
+  {
+    code: 'VA',
+    name: 'Holy See (Vatican City State)'
   },
   {
     code: 'HN',
@@ -397,7 +417,7 @@
   },
   {
     code: 'IR',
-    name: 'Iran Islamic Republic Of'
+    name: 'Iran, Islamic Republic Of'
   },
   {
     code: 'IQ',
@@ -408,6 +428,10 @@
     name: 'Ireland'
   },
   {
+    code: 'IM',
+    name: 'Isle Of Man'
+  },
+  {
     code: 'IL',
     name: 'Israel'
   },
@@ -416,12 +440,16 @@
     name: 'Italy'
   },
   {
-    code: 'CI',
-    name: 'Ivory Coast'
+    code: 'JM',
+    name: 'Jamaica'
   },
   {
     code: 'JP',
     name: 'Japan'
+  },
+  {
+    code: 'JE',
+    name: 'Jersey'
   },
   {
     code: 'JO',
@@ -438,14 +466,6 @@
   {
     code: 'KI',
     name: 'Kiribati'
-  },
-  {
-    code: 'KP',
-    name: 'Korea Democratic Rep'
-  },
-  {
-    code: 'KR',
-    name: 'Korea Republic Of'
   },
   {
     code: 'KW',
@@ -477,7 +497,7 @@
   },
   {
     code: 'LY',
-    name: 'Libyan Arab Jamahiriya'
+    name: 'Libya'
   },
   {
     code: 'LI',
@@ -493,7 +513,7 @@
   },
   {
     code: 'MO',
-    name: 'Macau'
+    name: 'Macao'
   },
   {
     code: 'MK',
@@ -540,6 +560,10 @@
     name: 'Mauritius'
   },
   {
+    code: 'YT',
+    name: 'Mayotte'
+  },
+  {
     code: 'MX',
     name: 'Mexico'
   },
@@ -548,12 +572,8 @@
     name: 'Micronesia'
   },
   {
-    code: '',
-    name: 'Middle East'
-  },
-  {
     code: 'MD',
-    name: 'Moldavia Republic Of'
+    name: 'Moldova, Republic Of'
   },
   {
     code: 'MC',
@@ -562,6 +582,10 @@
   {
     code: 'MN',
     name: 'Mongolia'
+  },
+  {
+    code: 'ME',
+    name: 'Montenegro'
   },
   {
     code: 'MS',
@@ -596,10 +620,6 @@
     name: 'Netherlands'
   },
   {
-    code: 'NL',
-    name: 'Netherlands Antilles'
-  },
-  {
     code: 'NC',
     name: 'New Caledonia'
   },
@@ -628,6 +648,10 @@
     name: 'Norfolk Island'
   },
   {
+    code: 'KP',
+    name: 'North Korea'
+  },
+  {
     code: 'MP',
     name: 'Northern Mariana Islands'
   },
@@ -646,6 +670,10 @@
   {
     code: 'PW',
     name: 'Palau'
+  },
+  {
+    code: 'PS',
+    name: 'Palestine, State Of'
   },
   {
     code: 'PA',
@@ -704,6 +732,10 @@
     name: 'Rwanda'
   },
   {
+    code: 'BL',
+    name: 'Saint Barthelemy'
+  },
+  {
     code: 'SH',
     name: 'Saint Helena'
   },
@@ -714,6 +746,10 @@
   {
     code: 'LC',
     name: 'Saint Lucia'
+  },
+  {
+    code: 'MF',
+    name: 'Saint Martin (French Part)'
   },
   {
     code: 'PM',
@@ -744,6 +780,10 @@
     name: 'Senegal'
   },
   {
+    code: 'RS',
+    name: 'Serbia'
+  },
+  {
     code: 'SC',
     name: 'Seychelles'
   },
@@ -754,6 +794,10 @@
   {
     code: 'SG',
     name: 'Singapore'
+  },
+  {
+    code: 'SX',
+    name: 'Sint Maarten (Dutch Part)'
   },
   {
     code: 'SK',
@@ -776,6 +820,14 @@
     name: 'South Africa'
   },
   {
+    code: 'KR',
+    name: 'South Korea'
+  },
+  {
+    code: 'SS',
+    name: 'South Sudan'
+  },
+  {
     code: 'ES',
     name: 'Spain'
   },
@@ -784,12 +836,20 @@
     name: 'Sri Lanka'
   },
   {
+    code: 'GS',
+    name: 'Sth Georgia & Sth Sandwich Isl'
+  },
+  {
     code: 'SD',
     name: 'Sudan'
   },
   {
     code: 'SR',
     name: 'Suriname'
+  },
+  {
+    code: 'SJ',
+    name: 'Svalbard And Jan Mayen'
   },
   {
     code: 'SZ',
@@ -809,7 +869,7 @@
   },
   {
     code: 'TW',
-    name: 'Taiwan'
+    name: 'Taiwan, Province Of China'
   },
   {
     code: 'TJ',
@@ -817,11 +877,15 @@
   },
   {
     code: 'TZ',
-    name: 'Tanzania United Rep'
+    name: 'Tanzania, United Republic Of'
   },
   {
     code: 'TH',
     name: 'Thailand'
+  },
+  {
+    code: 'TL',
+    name: 'Timor-leste'
   },
   {
     code: 'TG',
@@ -884,6 +948,10 @@
     name: 'Uruguay'
   },
   {
+    code: 'UM',
+    name: 'Us Minor Outlying Islands'
+  },
+  {
     code: 'UZ',
     name: 'Uzbekistan'
   },
@@ -901,11 +969,11 @@
   },
   {
     code: 'VG',
-    name: 'Virgin Islands British'
+    name: 'Virgin Islands, British'
   },
   {
     code: 'VI',
-    name: 'Virgin Islands Us'
+    name: 'Virgin Islands, U.s.'
   },
   {
     code: 'WF',
@@ -927,7 +995,7 @@
     code: 'ZW',
     name: 'Zimbabwe'
   }
-]
+];
 
 var getNames = function () {
   return countries.map(function (country) { return country.name })
