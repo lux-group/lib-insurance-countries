@@ -1,4 +1,4 @@
-﻿module.exports = [
+﻿var countries = [
   {
     code: 'AF',
     name: 'Afghanistan'
@@ -928,3 +928,26 @@
     name: 'Zimbabwe'
   }
 ]
+
+var getNames = function () {
+  return countries.map(function (country) { return country.name })
+}
+
+var findByCode = function (code) {
+  return countries.find(function (country) {
+    return country.code.toLowerCase() === code.toLowerCase()
+  })
+}
+
+var findByName = function (name) {
+  return countries.find(function (country) {
+    return country.name.toLowerCase() === name.toLowerCase()
+  })
+}
+
+module.exports = {
+  countries: countries,
+  getNames: getNames,
+  findByCode: findByCode,
+  findByName: findByName
+}
