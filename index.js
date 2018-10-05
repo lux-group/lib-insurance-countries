@@ -1001,6 +1001,10 @@ var getNames = function () {
   return countries.map(function (country) { return country.name })
 }
 
+var getCodes = function () {
+  return countries.map(function (country) { return country.code })
+}
+
 var findByCode = function (code) {
   return countries.find(function (country) {
     return country.code.toLowerCase() === code.toLowerCase()
@@ -1016,6 +1020,7 @@ var findByName = function (name) {
 module.exports = {
   countries: countries,
   getNames: getNames,
+  getCodes: getCodes,
   findByCode: findByCode,
   findByName: findByName
 }
