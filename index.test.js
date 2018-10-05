@@ -11,6 +11,15 @@ describe('getNames', function () {
   })
 })
 
+describe('getCodes', function () {
+  it('should return the codes', function () {
+    var codes = libInsuranceCountries.getCodes()
+
+    expect(codes.length).to.be.greaterThan(0)
+    expect(codes.includes('AU')).to.be.true
+  })
+})
+
 describe('findByName', function () {
   it('should return the country', function () {
     expect(libInsuranceCountries.findByName('australia')).to.deep.equal({
