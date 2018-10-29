@@ -1,1001 +1,1499 @@
 ﻿﻿var countries = [
   {
-    code: 'AF',
-    name: 'Afghanistan'
+    code: "AF",
+    country_code: "AFG",
+    name: "Afghanistan",
+    region: "ASIA"
   },
   {
-    code: 'AX',
-    name: 'Aland Islands'
+    code: "AX",
+    country_code: "ALA",
+    name: "Aland Islands",
+    region: "EUROPE"
   },
   {
-    code: 'AL',
-    name: 'Albania'
+    code: "AL",
+    country_code: "ALB",
+    name: "Albania",
+    region: "EUROPE"
   },
   {
-    code: 'DZ',
-    name: 'Algeria'
+    code: "DZ",
+    country_code: "DZA",
+    name: "Algeria",
+    region: "Worldwide"
   },
   {
-    code: 'AS',
-    name: 'American Samoa'
+    code: "AS",
+    country_code: "ASM",
+    name: "American Samoa",
+    region: "PACIFIC"
   },
   {
-    code: 'AD',
-    name: 'Andorra'
+    code: "AD",
+    country_code: "AND",
+    name: "Andorra",
+    region: "EUROPE"
   },
   {
-    code: 'AO',
-    name: 'Angola'
+    code: "AO",
+    country_code: "AGO",
+    name: "Angola",
+    region: "Worldwide"
   },
   {
-    code: 'AI',
-    name: 'Anguilla'
+    code: "AI",
+    country_code: "AIA",
+    name: "Anguilla",
+    region: "Worldwide"
   },
   {
-    code: 'AQ',
-    name: 'Antarctica'
+    code: "AQ",
+    country_code: "ATA",
+    name: "Antarctica",
+    region: "WORLDWIDE"
   },
   {
-    code: 'AG',
-    name: 'Antigua And Barbuda'
+    code: "AG",
+    country_code: "ATG",
+    name: "Antigua And Barbuda",
+    region: "Worldwide"
   },
   {
-    code: 'AR',
-    name: 'Argentina'
+    code: "AR",
+    country_code: "ARG",
+    name: "Argentina",
+    region: "Worldwide"
   },
   {
-    code: 'AM',
-    name: 'Armenia'
+    code: "AM",
+    country_code: "ARM",
+    name: "Armenia",
+    region: "ASIA"
   },
   {
-    code: 'AW',
-    name: 'Aruba'
+    code: "AW",
+    country_code: "ABW",
+    name: "Aruba",
+    region: "Worldwide"
   },
   {
-    code: 'AU',
-    name: 'Australia'
+    code: "AU",
+    country_code: "AUS",
+    name: "Australia",
+    region: "DOMESTIC"
   },
   {
-    code: 'AT',
-    name: 'Austria'
+    code: "AT",
+    country_code: "AUT",
+    name: "Austria",
+    region: "EUROPE"
   },
   {
-    code: 'AZ',
-    name: 'Azerbaijan'
+    code: "AZ",
+    country_code: "AZE",
+    name: "Azerbaijan",
+    region: "ASIA"
   },
   {
-    code: 'BS',
-    name: 'Bahamas'
+    code: "BS",
+    country_code: "BHS",
+    name: "Bahamas",
+    region: "Worldwide"
   },
   {
-    code: 'BH',
-    name: 'Bahrain'
+    code: "BH",
+    country_code: "BHR",
+    name: "Bahrain",
+    region: "ASIA"
   },
   {
-    code: 'BD',
-    name: 'Bangladesh'
+    code: "BD",
+    country_code: "BGD",
+    name: "Bangladesh",
+    region: "ASIA"
   },
   {
-    code: 'BB',
-    name: 'Barbados'
+    code: "BB",
+    country_code: "BRB",
+    name: "Barbados",
+    region: "Worldwide"
   },
   {
-    code: 'BY',
-    name: 'Belarus'
+    code: "BY",
+    country_code: "BLR",
+    name: "Belarus",
+    region: "EUROPE"
   },
   {
-    code: 'BE',
-    name: 'Belgium'
+    code: "BE",
+    country_code: "BEL",
+    name: "Belgium",
+    region: "EUROPE"
   },
   {
-    code: 'BZ',
-    name: 'Belize'
+    code: "BZ",
+    country_code: "BLZ",
+    name: "Belize",
+    region: "Worldwide"
   },
   {
-    code: 'BJ',
-    name: 'Benin'
+    code: "BJ",
+    country_code: "BEN",
+    name: "Benin",
+    region: "Worldwide"
   },
   {
-    code: 'BM',
-    name: 'Bermuda'
+    code: "BM",
+    country_code: "BMU",
+    name: "Bermuda",
+    region: "Worldwide"
   },
   {
-    code: 'BT',
-    name: 'Bhutan'
+    code: "BT",
+    country_code: "BTN",
+    name: "Bhutan",
+    region: "ASIA"
   },
   {
-    code: 'BO',
-    name: 'Bolivia'
+    code: "BO",
+    country_code: "BOL",
+    name: "Bolivia",
+    region: "Worldwide"
   },
   {
-    code: 'BQ',
-    name: 'Bonaire, Sint Eustatius & Saba'
+    code: "BQ",
+    country_code: "BES",
+    name: "Bonaire, Sint Eustatius & Saba",
+    region: "Worldwide"
   },
   {
-    code: 'BA',
-    name: 'Bosnia And Herzegovina'
+    code: "BA",
+    country_code: "BIH",
+    name: "Bosnia And Herzegovina",
+    region: "EUROPE"
   },
   {
-    code: 'BW',
-    name: 'Botswana'
+    code: "BW",
+    country_code: "BWA",
+    name: "Botswana",
+    region: "Worldwide"
   },
   {
-    code: 'BV',
-    name: 'Bouvet Island'
+    code: "BV",
+    country_code: "BVT",
+    name: "Bouvet Island",
+    region: "WORLDWIDE"
   },
   {
-    code: 'BR',
-    name: 'Brazil'
+    code: "BR",
+    country_code: "BRA",
+    name: "Brazil",
+    region: "Worldwide"
   },
   {
-    code: 'IO',
-    name: 'British Indian Ocean Territory'
+    code: "IO",
+    country_code: "IOT",
+    name: "British Indian Ocean Territory",
+    region: "WORLDWIDE"
   },
   {
-    code: 'BN',
-    name: 'Brunei Darussalam'
+    code: "BN",
+    country_code: "BRN",
+    name: "Brunei Darussalam",
+    region: "ASIA"
   },
   {
-    code: 'BG',
-    name: 'Bulgaria'
+    code: "BG",
+    country_code: "BGR",
+    name: "Bulgaria",
+    region: "EUROPE"
   },
   {
-    code: 'BF',
-    name: 'Burkina Faso'
+    code: "BF",
+    country_code: "BFA",
+    name: "Burkina Faso",
+    region: "Worldwide"
   },
   {
-    code: 'BI',
-    name: 'Burundi'
+    code: "BI",
+    country_code: "BDI",
+    name: "Burundi",
+    region: "Worldwide"
   },
   {
-    code: 'KH',
-    name: 'Cambodia'
+    code: "KH",
+    country_code: "KHM",
+    name: "Cambodia",
+    region: "ASIA"
   },
   {
-    code: 'CM',
-    name: 'Cameroon'
+    code: "CM",
+    country_code: "CMR",
+    name: "Cameroon",
+    region: "Worldwide"
   },
   {
-    code: 'CA',
-    name: 'Canada'
+    code: "CA",
+    country_code: "CAN",
+    name: "Canada",
+    region: "Worldwide"
   },
   {
-    code: 'CV',
-    name: 'Cape Verde'
+    code: "CV",
+    country_code: "CPV",
+    name: "Cape Verde",
+    region: "Worldwide"
   },
   {
-    code: 'KY',
-    name: 'Cayman Islands'
+    code: "KY",
+    country_code: "CYM",
+    name: "Cayman Islands",
+    region: "Worldwide"
   },
   {
-    code: 'CF',
-    name: 'Central African Republic'
+    code: "CF",
+    country_code: "CAF",
+    name: "Central African Republic",
+    region: "Worldwide"
   },
   {
-    code: 'TD',
-    name: 'Chad'
+    code: "TD",
+    country_code: "TCD",
+    name: "Chad",
+    region: "Worldwide"
   },
   {
-    code: 'CL',
-    name: 'Chile'
+    code: "CL",
+    country_code: "CHL",
+    name: "Chile",
+    region: "Worldwide"
   },
   {
-    code: 'CN',
-    name: 'China'
+    code: "CN",
+    country_code: "CHN",
+    name: "China",
+    region: "ASIA"
   },
   {
-    code: 'CX',
-    name: 'Christmas Island'
+    code: "CX",
+    country_code: "CXR",
+    name: "Christmas Island",
+    region: "DOMESTIC"
   },
   {
-    code: 'CC',
-    name: 'Cocos (Keeling) Islands'
+    code: "CC",
+    country_code: "CCK",
+    name: "Cocos (Keeling) Islands",
+    region: "DOMESTIC"
   },
   {
-    code: 'CO',
-    name: 'Colombia'
+    code: "CO",
+    country_code: "COL",
+    name: "Colombia",
+    region: "Worldwide"
   },
   {
-    code: 'KM',
-    name: 'Comoros'
+    code: "KM",
+    country_code: "COM",
+    name: "Comoros",
+    region: "Worldwide"
   },
   {
-    code: 'CG',
-    name: 'Congo'
+    code: "CG",
+    country_code: "COG",
+    name: "Congo",
+    region: "Worldwide"
   },
   {
-    code: 'CD',
-    name: 'Congo, Democratic Rep'
+    code: "CD",
+    country_code: "CD",
+    name: "Congo, Democratic Rep",
+    region: "Worldwide"
   },
   {
-    code: 'CK',
-    name: 'Cook Islands'
+    code: "CK",
+    country_code: "COK",
+    name: "Cook Islands",
+    region: "PACIFIC"
   },
   {
-    code: 'CR',
-    name: 'Costa Rica'
+    code: "CR",
+    country_code: "CRI",
+    name: "Costa Rica",
+    region: "Worldwide"
   },
   {
-    code: 'CI',
-    name: 'Cote D\'ivoire'
+    code: "CI",
+    country_code: "CI",
+    name: "Cote D'Ivoire",
+    region: "Worldwide"
   },
   {
-    code: 'HR',
-    name: 'Croatia'
+    code: "HR",
+    country_code: "HRV",
+    name: "Croatia",
+    region: "EUROPE"
   },
   {
-    code: 'CU',
-    name: 'Cuba'
+    code: "CU",
+    country_code: "CUB",
+    name: "Cuba",
+    region: "Worldwide"
   },
   {
-    code: 'CW',
-    name: 'Curacao'
+    code: "CW",
+    country_code: "XC",
+    name: "Curacao",
+    region: "Worldwide"
   },
   {
-    code: 'CY',
-    name: 'Cyprus'
+    code: "CY",
+    country_code: "CYP",
+    name: "Cyprus",
+    region: "ASIA"
   },
   {
-    code: 'CZ',
-    name: 'Czech Republic'
+    code: "CZ",
+    country_code: "CZE",
+    name: "Czech Republic",
+    region: "EUROPE"
   },
   {
-    code: 'DK',
-    name: 'Denmark'
+    code: "DK",
+    country_code: "DNK",
+    name: "Denmark",
+    region: "EUROPE"
   },
   {
-    code: 'DJ',
-    name: 'Djibouti'
+    code: "DJ",
+    country_code: "DJI",
+    name: "Djibouti",
+    region: "Worldwide"
   },
   {
-    code: 'DM',
-    name: 'Dominica'
+    code: "DM",
+    country_code: "DMA",
+    name: "Dominica",
+    region: "Worldwide"
   },
   {
-    code: 'DO',
-    name: 'Dominican Republic'
+    code: "DO",
+    country_code: "DOM",
+    name: "Dominican Republic",
+    region: "Worldwide"
   },
   {
-    code: 'EC',
-    name: 'Ecuador'
+    code: "EC",
+    country_code: "ECU",
+    name: "Ecuador",
+    region: "Worldwide"
   },
   {
-    code: 'EG',
-    name: 'Egypt'
+    code: "EG",
+    country_code: "EGY",
+    name: "Egypt",
+    region: "Worldwide"
   },
   {
-    code: 'SV',
-    name: 'El Salvador'
+    code: "SV",
+    country_code: "SLV",
+    name: "El Salvador",
+    region: "Worldwide"
   },
   {
-    code: 'GQ',
-    name: 'Equatorial Guinea'
+    code: "GQ",
+    country_code: "GNQ",
+    name: "Equatorial Guinea",
+    region: "Worldwide"
   },
   {
-    code: 'ER',
-    name: 'Eritrea'
+    code: "ER",
+    country_code: "ERI",
+    name: "Eritrea",
+    region: "Worldwide"
   },
   {
-    code: 'EE',
-    name: 'Estonia'
+    code: "EE",
+    country_code: "EST",
+    name: "Estonia",
+    region: "EUROPE"
   },
   {
-    code: 'ET',
-    name: 'Ethiopia'
+    code: "ET",
+    country_code: "ETH",
+    name: "Ethiopia",
+    region: "Worldwide"
   },
   {
-    code: 'FK',
-    name: 'Falkland Islands (Malvinas)'
+    code: "FK",
+    country_code: "FLK",
+    name: "Falkland Islands (Malvinas)",
+    region: "Worldwide"
   },
   {
-    code: 'FO',
-    name: 'Faroe Islands'
+    code: "FO",
+    country_code: "FRO",
+    name: "Faroe Islands",
+    region: "EUROPE"
   },
   {
-    code: 'FJ',
-    name: 'Fiji'
+    code: "FJ",
+    country_code: "FJI",
+    name: "Fiji",
+    region: "PACIFIC"
   },
   {
-    code: 'FI',
-    name: 'Finland'
+    code: "FI",
+    country_code: "FIN",
+    name: "Finland",
+    region: "EUROPE"
   },
   {
-    code: 'FR',
-    name: 'France'
+    code: "FR",
+    country_code: "FRA",
+    name: "France",
+    region: "EUROPE"
   },
   {
-    code: 'GF',
-    name: 'French Guiana'
+    code: "GF",
+    country_code: "GUF",
+    name: "French Guiana",
+    region: "Worldwide"
   },
   {
-    code: 'PF',
-    name: 'French Polynesia'
+    code: "PF",
+    country_code: "PYF",
+    name: "French Polynesia",
+    region: "PACIFIC"
   },
   {
-    code: 'TF',
-    name: 'French Southern Territories'
+    code: "TF",
+    country_code: "ATF",
+    name: "French Southern Territories",
+    region: "WORLDWIDE"
   },
   {
-    code: 'GA',
-    name: 'Gabon'
+    code: "GA",
+    country_code: "GAB",
+    name: "Gabon",
+    region: "Worldwide"
   },
   {
-    code: 'GM',
-    name: 'Gambia'
+    code: "GM",
+    country_code: "GMB",
+    name: "Gambia",
+    region: "Worldwide"
   },
   {
-    code: 'GE',
-    name: 'Georgia'
+    code: "GE",
+    country_code: "GEO",
+    name: "Georgia",
+    region: "ASIA"
   },
   {
-    code: 'DE',
-    name: 'Germany'
+    code: "DE",
+    country_code: "DEU",
+    name: "Germany",
+    region: "EUROPE"
   },
   {
-    code: 'GH',
-    name: 'Ghana'
+    code: "GH",
+    country_code: "GHA",
+    name: "Ghana",
+    region: "Worldwide"
   },
   {
-    code: 'GI',
-    name: 'Gibraltar'
+    code: "GI",
+    country_code: "GIB",
+    name: "Gibraltar",
+    region: "EUROPE"
   },
   {
-    code: 'GR',
-    name: 'Greece'
+    code: "GR",
+    country_code: "GRC",
+    name: "Greece",
+    region: "EUROPE"
   },
   {
-    code: 'GL',
-    name: 'Greenland'
+    code: "GL",
+    country_code: "GRL",
+    name: "Greenland",
+    region: "Worldwide"
   },
   {
-    code: 'GD',
-    name: 'Grenada'
+    code: "GD",
+    country_code: "GRD",
+    name: "Grenada",
+    region: "Worldwide"
   },
   {
-    code: 'GP',
-    name: 'Guadeloupe'
+    code: "GP",
+    country_code: "GLP",
+    name: "Guadeloupe",
+    region: "Worldwide"
   },
   {
-    code: 'GU',
-    name: 'Guam'
+    code: "GU",
+    country_code: "GUM",
+    name: "Guam",
+    region: "PACIFIC"
   },
   {
-    code: 'GT',
-    name: 'Guatemala'
+    code: "GT",
+    country_code: "GTM",
+    name: "Guatemala",
+    region: "Worldwide"
   },
   {
-    code: 'GG',
-    name: 'Guernsey'
+    code: "GG",
+    country_code: "GGY",
+    name: "Guernsey",
+    region: "EUROPE"
   },
   {
-    code: 'GN',
-    name: 'Guinea'
+    code: "GN",
+    country_code: "GIN",
+    name: "Guinea",
+    region: "Worldwide"
   },
   {
-    code: 'GW',
-    name: 'Guinea-bissau'
+    code: "GW",
+    country_code: "GNB",
+    name: "Guinea-Bissau",
+    region: "Worldwide"
   },
   {
-    code: 'GY',
-    name: 'Guyana'
+    code: "GY",
+    country_code: "GUY",
+    name: "Guyana",
+    region: "Worldwide"
   },
   {
-    code: 'HT',
-    name: 'Haiti'
+    code: "HT",
+    country_code: "HTI",
+    name: "Haiti",
+    region: "Worldwide"
   },
   {
-    code: 'HM',
-    name: 'Heard Island & Mcdonald Island'
+    code: "HM",
+    country_code: "HMD",
+    name: "Heard Island & Mcdonald Island",
+    region: "PACIFIC"
   },
   {
-    code: 'VA',
-    name: 'Holy See (Vatican City State)'
+    code: "VA",
+    country_code: "VAT",
+    name: "Holy See (Vatican City State)",
+    region: "EUROPE"
   },
   {
-    code: 'HN',
-    name: 'Honduras'
+    code: "HN",
+    country_code: "HND",
+    name: "Honduras",
+    region: "Worldwide"
   },
   {
-    code: 'HK',
-    name: 'Hong Kong'
+    code: "HK",
+    country_code: "HKG",
+    name: "Hong Kong",
+    region: "ASIA"
   },
   {
-    code: 'HU',
-    name: 'Hungary'
+    code: "HU",
+    country_code: "HUN",
+    name: "Hungary",
+    region: "EUROPE"
   },
   {
-    code: 'IS',
-    name: 'Iceland'
+    code: "IS",
+    country_code: "ISL",
+    name: "Iceland",
+    region: "EUROPE"
   },
   {
-    code: 'IN',
-    name: 'India'
+    code: "IN",
+    country_code: "IND",
+    name: "India",
+    region: "ASIA"
   },
   {
-    code: 'ID',
-    name: 'Indonesia'
+    code: "ID",
+    country_code: "IDN",
+    name: "Indonesia",
+    region: "ASIA"
   },
   {
-    code: 'IR',
-    name: 'Iran, Islamic Republic Of'
+    code: "IR",
+    country_code: "IRN",
+    name: "Iran, Islamic Republic Of",
+    region: "ASIA"
   },
   {
-    code: 'IQ',
-    name: 'Iraq'
+    code: "IQ",
+    country_code: "IRQ",
+    name: "Iraq",
+    region: "ASIA"
   },
   {
-    code: 'IE',
-    name: 'Ireland'
+    code: "IE",
+    country_code: "IRL",
+    name: "Ireland",
+    region: "EUROPE"
   },
   {
-    code: 'IM',
-    name: 'Isle Of Man'
+    code: "IM",
+    country_code: "IMN",
+    name: "Isle Of Man",
+    region: "EUROPE"
   },
   {
-    code: 'IL',
-    name: 'Israel'
+    code: "IL",
+    country_code: "ISR",
+    name: "Israel",
+    region: "ASIA"
   },
   {
-    code: 'IT',
-    name: 'Italy'
+    code: "IT",
+    country_code: "ITA",
+    name: "Italy",
+    region: "EUROPE"
   },
   {
-    code: 'JM',
-    name: 'Jamaica'
+    code: "JM",
+    country_code: "JAM",
+    name: "Jamaica",
+    region: "Worldwide"
   },
   {
-    code: 'JP',
-    name: 'Japan'
+    code: "JP",
+    country_code: "JPN",
+    name: "Japan",
+    region: "ASIA"
   },
   {
-    code: 'JE',
-    name: 'Jersey'
+    code: "JE",
+    country_code: "JEY",
+    name: "Jersey",
+    region: "EUROPE"
   },
   {
-    code: 'JO',
-    name: 'Jordan'
+    code: "JO",
+    country_code: "JOR",
+    name: "Jordan",
+    region: "ASIA"
   },
   {
-    code: 'KZ',
-    name: 'Kazakhstan'
+    code: "KZ",
+    country_code: "KAZ",
+    name: "Kazakhstan",
+    region: "ASIA"
   },
   {
-    code: 'KE',
-    name: 'Kenya'
+    code: "KE",
+    country_code: "KEN",
+    name: "Kenya",
+    region: "Worldwide"
   },
   {
-    code: 'KI',
-    name: 'Kiribati'
+    code: "KI",
+    country_code: "KIR",
+    name: "Kiribati",
+    region: "PACIFIC"
   },
   {
-    code: 'KW',
-    name: 'Kuwait'
+    code: "KW",
+    country_code: "KWT",
+    name: "Kuwait",
+    region: "ASIA"
   },
   {
-    code: 'KG',
-    name: 'Kyrgyzstan'
+    code: "KG",
+    country_code: "KGZ",
+    name: "Kyrgyzstan",
+    region: "ASIA"
   },
   {
-    code: 'LA',
-    name: 'Lao Democratic Rep'
+    code: "LA",
+    country_code: "LAO",
+    name: "Lao Democratic Rep",
+    region: "ASIA"
   },
   {
-    code: 'LV',
-    name: 'Latvia'
+    code: "LV",
+    country_code: "LVA",
+    name: "Latvia",
+    region: "EUROPE"
   },
   {
-    code: 'LB',
-    name: 'Lebanon'
+    code: "LB",
+    country_code: "LBN",
+    name: "Lebanon",
+    region: "ASIA"
   },
   {
-    code: 'LS',
-    name: 'Lesotho'
+    code: "LS",
+    country_code: "LSO",
+    name: "Lesotho",
+    region: "Worldwide"
   },
   {
-    code: 'LR',
-    name: 'Liberia'
+    code: "LR",
+    country_code: "LBR",
+    name: "Liberia",
+    region: "Worldwide"
   },
   {
-    code: 'LY',
-    name: 'Libya'
+    code: "LY",
+    country_code: "LBY",
+    name: "Libya",
+    region: "Worldwide"
   },
   {
-    code: 'LI',
-    name: 'Liechtenstein'
+    code: "LI",
+    country_code: "LIE",
+    name: "Liechtenstein",
+    region: "EUROPE"
   },
   {
-    code: 'LT',
-    name: 'Lithuania'
+    code: "LT",
+    country_code: "LTU",
+    name: "Lithuania",
+    region: "EUROPE"
   },
   {
-    code: 'LU',
-    name: 'Luxembourg'
+    code: "LU",
+    country_code: "LUX",
+    name: "Luxembourg",
+    region: "EUROPE"
   },
   {
-    code: 'MO',
-    name: 'Macao'
+    code: "MO",
+    country_code: "MAC",
+    name: "Macao",
+    region: "ASIA"
   },
   {
-    code: 'MK',
-    name: 'Macedonia'
+    code: "MK",
+    country_code: "MKD",
+    name: "Macedonia",
+    region: "EUROPE"
   },
   {
-    code: 'MG',
-    name: 'Madagascar'
+    code: "MG",
+    country_code: "MDG",
+    name: "Madagascar",
+    region: "Worldwide"
   },
   {
-    code: 'MW',
-    name: 'Malawi'
+    code: "MW",
+    country_code: "MWI",
+    name: "Malawi",
+    region: "Worldwide"
   },
   {
-    code: 'MY',
-    name: 'Malaysia'
+    code: "MY",
+    country_code: "MYS",
+    name: "Malaysia",
+    region: "ASIA"
   },
   {
-    code: 'MV',
-    name: 'Maldives'
+    code: "MV",
+    country_code: "MDV",
+    name: "Maldives",
+    region: "ASIA"
   },
   {
-    code: 'ML',
-    name: 'Mali'
+    code: "ML",
+    country_code: "MLI",
+    name: "Mali",
+    region: "Worldwide"
   },
   {
-    code: 'MT',
-    name: 'Malta'
+    code: "MT",
+    country_code: "MLT",
+    name: "Malta",
+    region: "EUROPE"
   },
   {
-    code: 'MH',
-    name: 'Marshall Islands'
+    code: "MH",
+    country_code: "MHL",
+    name: "Marshall Islands",
+    region: "PACIFIC"
   },
   {
-    code: 'MQ',
-    name: 'Martinique'
+    code: "MQ",
+    country_code: "MTQ",
+    name: "Martinique",
+    region: "Worldwide"
   },
   {
-    code: 'MR',
-    name: 'Mauritania'
+    code: "MR",
+    country_code: "MRT",
+    name: "Mauritania",
+    region: "Worldwide"
   },
   {
-    code: 'MU',
-    name: 'Mauritius'
+    code: "MU",
+    country_code: "MUS",
+    name: "Mauritius",
+    region: "Worldwide"
   },
   {
-    code: 'YT',
-    name: 'Mayotte'
+    code: "YT",
+    country_code: "MYT",
+    name: "Mayotte",
+    region: "Worldwide"
   },
   {
-    code: 'MX',
-    name: 'Mexico'
+    code: "MX",
+    country_code: "MEX",
+    name: "Mexico",
+    region: "Worldwide"
   },
   {
-    code: 'FM',
-    name: 'Micronesia'
+    code: "FM",
+    country_code: "FSM",
+    name: "Micronesia",
+    region: "PACIFIC"
   },
   {
-    code: 'MD',
-    name: 'Moldova, Republic Of'
+    code: "MD",
+    country_code: "MDA",
+    name: "Moldova, Republic Of",
+    region: "EUROPE"
   },
   {
-    code: 'MC',
-    name: 'Monaco'
+    code: "MC",
+    country_code: "MCO",
+    name: "Monaco",
+    region: "EUROPE"
   },
   {
-    code: 'MN',
-    name: 'Mongolia'
+    code: "MN",
+    country_code: "MNG",
+    name: "Mongolia",
+    region: "ASIA"
   },
   {
-    code: 'ME',
-    name: 'Montenegro'
+    code: "ME",
+    country_code: "MNE",
+    name: "Montenegro",
+    region: "EUROPE"
   },
   {
-    code: 'MS',
-    name: 'Montserrat'
+    code: "MS",
+    country_code: "MSR",
+    name: "Montserrat",
+    region: "Worldwide"
   },
   {
-    code: 'MA',
-    name: 'Morocco'
+    code: "MA",
+    country_code: "MAR",
+    name: "Morocco",
+    region: "Worldwide"
   },
   {
-    code: 'MZ',
-    name: 'Mozambique'
+    code: "MZ",
+    country_code: "MOZ",
+    name: "Mozambique",
+    region: "Worldwide"
   },
   {
-    code: 'MM',
-    name: 'Myanmar'
+    code: "MM",
+    country_code: "MMR",
+    name: "Myanmar",
+    region: "ASIA"
   },
   {
-    code: 'NA',
-    name: 'Namibia'
+    code: "NA",
+    country_code: "NAM",
+    name: "Namibia",
+    region: "Worldwide"
   },
   {
-    code: 'NR',
-    name: 'Nauru'
+    code: "NR",
+    country_code: "NRU",
+    name: "Nauru",
+    region: "PACIFIC"
   },
   {
-    code: 'NP',
-    name: 'Nepal'
+    code: "NP",
+    country_code: "NPL",
+    name: "Nepal",
+    region: "ASIA"
   },
   {
-    code: 'NL',
-    name: 'Netherlands'
+    code: "NL",
+    country_code: "NLD",
+    name: "Netherlands",
+    region: "EUROPE"
   },
   {
-    code: 'NC',
-    name: 'New Caledonia'
+    code: "NC",
+    country_code: "NCL",
+    name: "New Caledonia",
+    region: "PACIFIC"
   },
   {
-    code: 'NZ',
-    name: 'New Zealand'
+    code: "NZ",
+    country_code: "NZL",
+    name: "New Zealand",
+    region: "NEW ZEALAND"
   },
   {
-    code: 'NI',
-    name: 'Nicaragua'
+    code: "NI",
+    country_code: "NIC",
+    name: "Nicaragua",
+    region: "Worldwide"
   },
   {
-    code: 'NE',
-    name: 'Niger'
+    code: "NE",
+    country_code: "NER",
+    name: "Niger",
+    region: "Worldwide"
   },
   {
-    code: 'NG',
-    name: 'Nigeria'
+    code: "NG",
+    country_code: "NGA",
+    name: "Nigeria",
+    region: "Worldwide"
   },
   {
-    code: 'NU',
-    name: 'Niue'
+    code: "NU",
+    country_code: "NIU",
+    name: "Niue",
+    region: "PACIFIC"
   },
   {
-    code: 'NF',
-    name: 'Norfolk Island'
+    code: "NF",
+    country_code: "NFK",
+    name: "Norfolk Island",
+    region: "DOMESTIC"
   },
   {
-    code: 'KP',
-    name: 'North Korea'
+    code: "KP",
+    country_code: "PRK",
+    name: "North Korea",
+    region: "ASIA"
   },
   {
-    code: 'MP',
-    name: 'Northern Mariana Islands'
+    code: "MP",
+    country_code: "MNP",
+    name: "Northern Mariana Islands",
+    region: "PACIFIC"
   },
   {
-    code: 'NO',
-    name: 'Norway'
+    code: "NO",
+    country_code: "NOR",
+    name: "Norway",
+    region: "EUROPE"
   },
   {
-    code: 'OM',
-    name: 'Oman'
+    code: "OM",
+    country_code: "OMN",
+    name: "Oman",
+    region: "ASIA"
   },
   {
-    code: 'PK',
-    name: 'Pakistan'
+    code: "PK",
+    country_code: "PAK",
+    name: "Pakistan",
+    region: "ASIA"
   },
   {
-    code: 'PW',
-    name: 'Palau'
+    code: "PW",
+    country_code: "PLW",
+    name: "Palau",
+    region: "PACIFIC"
   },
   {
-    code: 'PS',
-    name: 'Palestine, State Of'
+    code: "PS",
+    country_code: "PSE",
+    name: "Palestine, State Of",
+    region: "ASIA"
   },
   {
-    code: 'PA',
-    name: 'Panama'
+    code: "PA",
+    country_code: "PAN",
+    name: "Panama",
+    region: "Worldwide"
   },
   {
-    code: 'PG',
-    name: 'Papua New Guinea'
+    code: "PG",
+    country_code: "PNG",
+    name: "Papua New Guinea",
+    region: "PACIFIC"
   },
   {
-    code: 'PY',
-    name: 'Paraguay'
+    code: "PY",
+    country_code: "PRY",
+    name: "Paraguay",
+    region: "Worldwide"
   },
   {
-    code: 'PE',
-    name: 'Peru'
+    code: "PE",
+    country_code: "PER",
+    name: "Peru",
+    region: "Worldwide"
   },
   {
-    code: 'PH',
-    name: 'Philippines'
+    code: "PH",
+    country_code: "PHL",
+    name: "Philippines",
+    region: "ASIA"
   },
   {
-    code: 'PN',
-    name: 'Pitcairn'
+    code: "PN",
+    country_code: "PN",
+    name: "Pitcairn",
+    region: "PACIFIC"
   },
   {
-    code: 'PL',
-    name: 'Poland'
+    code: "PL",
+    country_code: "POL",
+    name: "Poland",
+    region: "EUROPE"
   },
   {
-    code: 'PT',
-    name: 'Portugal'
+    code: "PT",
+    country_code: "PRT",
+    name: "Portugal",
+    region: "EUROPE"
   },
   {
-    code: 'PR',
-    name: 'Puerto Rico'
+    code: "PR",
+    country_code: "PRI",
+    name: "Puerto Rico",
+    region: "Worldwide"
   },
   {
-    code: 'QA',
-    name: 'Qatar'
+    code: "QA",
+    country_code: "QAT",
+    name: "Qatar",
+    region: "ASIA"
   },
   {
-    code: 'RE',
-    name: 'Reunion'
+    code: "RE",
+    country_code: "REU",
+    name: "Reunion",
+    region: "Worldwide"
   },
   {
-    code: 'RO',
-    name: 'Romania'
+    code: "RO",
+    country_code: "ROU",
+    name: "Romania",
+    region: "EUROPE"
   },
   {
-    code: 'RU',
-    name: 'Russian Federation'
+    code: "RU",
+    country_code: "RUS",
+    name: "Russian Federation",
+    region: "EUROPE"
   },
   {
-    code: 'RW',
-    name: 'Rwanda'
+    code: "RW",
+    country_code: "RWA",
+    name: "Rwanda",
+    region: "Worldwide"
   },
   {
-    code: 'BL',
-    name: 'Saint Barthelemy'
+    code: "BL",
+    country_code: "XA",
+    name: "Saint Barthelemy",
+    region: "Worldwide"
   },
   {
-    code: 'SH',
-    name: 'Saint Helena'
+    code: "SH",
+    country_code: "SHN",
+    name: "Saint Helena",
+    region: "Worldwide"
   },
   {
-    code: 'KN',
-    name: 'Saint Kitts And Nevis'
+    code: "KN",
+    country_code: "KNA",
+    name: "Saint Kitts And Nevis",
+    region: "Worldwide"
   },
   {
-    code: 'LC',
-    name: 'Saint Lucia'
+    code: "LC",
+    country_code: "LCA",
+    name: "Saint Lucia",
+    region: "Worldwide"
   },
   {
-    code: 'MF',
-    name: 'Saint Martin (French Part)'
+    code: "MF",
+    country_code: "MAF",
+    name: "Saint Martin (French Part)",
+    region: "Worldwide"
   },
   {
-    code: 'PM',
-    name: 'Saint Pierre And Miquelon'
+    code: "PM",
+    country_code: "SPM",
+    name: "Saint Pierre And Miquelon",
+    region: "Worldwide"
   },
   {
-    code: 'VC',
-    name: 'Saint Vincent'
+    code: "VC",
+    country_code: "VCT",
+    name: "Saint Vincent",
+    region: "Worldwide"
   },
   {
-    code: 'WS',
-    name: 'Samoa'
+    code: "WS",
+    country_code: "WSM",
+    name: "Samoa",
+    region: "PACIFIC"
   },
   {
-    code: 'SM',
-    name: 'San Marino'
+    code: "SM",
+    country_code: "SMR",
+    name: "San Marino",
+    region: "EUROPE"
   },
   {
-    code: 'ST',
-    name: 'Sao Tome And Principe'
+    code: "ST",
+    country_code: "STP",
+    name: "Sao Tome And Principe",
+    region: "Worldwide"
   },
   {
-    code: 'SA',
-    name: 'Saudi Arabia'
+    code: "SA",
+    country_code: "SAU",
+    name: "Saudi Arabia",
+    region: "ASIA"
   },
   {
-    code: 'SN',
-    name: 'Senegal'
+    code: "SN",
+    country_code: "SEN",
+    name: "Senegal",
+    region: "Worldwide"
   },
   {
-    code: 'RS',
-    name: 'Serbia'
+    code: "RS",
+    country_code: "SRB",
+    name: "Serbia",
+    region: "EUROPE"
   },
   {
-    code: 'SC',
-    name: 'Seychelles'
+    code: "SC",
+    country_code: "SYC",
+    name: "Seychelles",
+    region: "Worldwide"
   },
   {
-    code: 'SL',
-    name: 'Sierra Leone'
+    code: "SL",
+    country_code: "SLE",
+    name: "Sierra Leone",
+    region: "Worldwide"
   },
   {
-    code: 'SG',
-    name: 'Singapore'
+    code: "SG",
+    country_code: "SGP",
+    name: "Singapore",
+    region: "ASIA"
   },
   {
-    code: 'SX',
-    name: 'Sint Maarten (Dutch Part)'
+    code: "SX",
+    country_code: "SXM",
+    name: "Sint Maarten (Dutch Part)",
+    region: "Worldwide"
   },
   {
-    code: 'SK',
-    name: 'Slovakia'
+    code: "SK",
+    country_code: "SVK",
+    name: "Slovakia",
+    region: "EUROPE"
   },
   {
-    code: 'SI',
-    name: 'Slovenia'
+    code: "SI",
+    country_code: "SVN",
+    name: "Slovenia",
+    region: "EUROPE"
   },
   {
-    code: 'SB',
-    name: 'Solomon Islands'
+    code: "SB",
+    country_code: "SLB",
+    name: "Solomon Islands",
+    region: "PACIFIC"
   },
   {
-    code: 'SO',
-    name: 'Somalia'
+    code: "SO",
+    country_code: "SOM",
+    name: "Somalia",
+    region: "Worldwide"
   },
   {
-    code: 'ZA',
-    name: 'South Africa'
+    code: "ZA",
+    country_code: "ZAF",
+    name: "South Africa",
+    region: "Worldwide"
   },
   {
-    code: 'KR',
-    name: 'South Korea'
+    code: "KR",
+    country_code: "KOR",
+    name: "South Korea",
+    region: "ASIA"
   },
   {
-    code: 'SS',
-    name: 'South Sudan'
+    code: "SS",
+    country_code: "SSD",
+    name: "South Sudan",
+    region: "Worldwide"
   },
   {
-    code: 'ES',
-    name: 'Spain'
+    code: "ES",
+    country_code: "ESP",
+    name: "Spain",
+    region: "EUROPE"
   },
   {
-    code: 'LK',
-    name: 'Sri Lanka'
+    code: "LK",
+    country_code: "LKA",
+    name: "Sri Lanka",
+    region: "ASIA"
   },
   {
-    code: 'GS',
-    name: 'Sth Georgia & Sth Sandwich Isl'
+    code: "GS",
+    country_code: "SGS",
+    name: "Sth Georgia & Sth Sandwich Isl",
+    region: "WORLDWIDE"
   },
   {
-    code: 'SD',
-    name: 'Sudan'
+    code: "SD",
+    country_code: "SDN",
+    name: "Sudan",
+    region: "Worldwide"
   },
   {
-    code: 'SR',
-    name: 'Suriname'
+    code: "SR",
+    country_code: "SUR",
+    name: "Suriname",
+    region: "Worldwide"
   },
   {
-    code: 'SJ',
-    name: 'Svalbard And Jan Mayen'
+    code: "SJ",
+    country_code: "SJM",
+    name: "Svalbard And Jan Mayen",
+    region: "EUROPE"
   },
   {
-    code: 'SZ',
-    name: 'Swaziland'
+    code: "SZ",
+    country_code: "SWZ",
+    name: "Swaziland",
+    region: "Worldwide"
   },
   {
-    code: 'SE',
-    name: 'Sweden'
+    code: "SE",
+    country_code: "SWE",
+    name: "Sweden",
+    region: "EUROPE"
   },
   {
-    code: 'CH',
-    name: 'Switzerland'
+    code: "CH",
+    country_code: "CHE",
+    name: "Switzerland",
+    region: "EUROPE"
   },
   {
-    code: 'SY',
-    name: 'Syrian Arab Republic'
+    code: "SY",
+    country_code: "SYR",
+    name: "Syrian Arab Republic",
+    region: "ASIA"
   },
   {
-    code: 'TW',
-    name: 'Taiwan, Province Of China'
+    code: "TW",
+    country_code: "TWN",
+    name: "Taiwan, Province Of China",
+    region: "ASIA"
   },
   {
-    code: 'TJ',
-    name: 'Tajikistan'
+    code: "TJ",
+    country_code: "TJK",
+    name: "Tajikistan",
+    region: "ASIA"
   },
   {
-    code: 'TZ',
-    name: 'Tanzania, United Republic Of'
+    code: "TZ",
+    country_code: "TZA",
+    name: "Tanzania, United Republic Of",
+    region: "Worldwide"
   },
   {
-    code: 'TH',
-    name: 'Thailand'
+    code: "TH",
+    country_code: "THA",
+    name: "Thailand",
+    region: "ASIA"
   },
   {
-    code: 'TL',
-    name: 'Timor-leste'
+    code: "TL",
+    country_code: "TP",
+    name: "Timor-Leste",
+    region: "ASIA"
   },
   {
-    code: 'TG',
-    name: 'Togo'
+    code: "TG",
+    country_code: "TGO",
+    name: "Togo",
+    region: "Worldwide"
   },
   {
-    code: 'TK',
-    name: 'Tokelau'
+    code: "TK",
+    country_code: "TKL",
+    name: "Tokelau",
+    region: "PACIFIC"
   },
   {
-    code: 'TO',
-    name: 'Tonga'
+    code: "TO",
+    country_code: "TON",
+    name: "Tonga",
+    region: "PACIFIC"
   },
   {
-    code: 'TT',
-    name: 'Trinidad And Tobago'
+    code: "TT",
+    country_code: "TTO",
+    name: "Trinidad And Tobago",
+    region: "Worldwide"
   },
   {
-    code: 'TN',
-    name: 'Tunisia'
+    code: "TN",
+    country_code: "TUN",
+    name: "Tunisia",
+    region: "Worldwide"
   },
   {
-    code: 'TR',
-    name: 'Turkey'
+    code: "TR",
+    country_code: "TUR",
+    name: "Turkey",
+    region: "ASIA"
   },
   {
-    code: 'TM',
-    name: 'Turkmenistan'
+    code: "TM",
+    country_code: "TKM",
+    name: "Turkmenistan",
+    region: "ASIA"
   },
   {
-    code: 'TC',
-    name: 'Turks And Caicos Islands'
+    code: "TC",
+    country_code: "TCA",
+    name: "Turks And Caicos Islands",
+    region: "Worldwide"
   },
   {
-    code: 'TV',
-    name: 'Tuvalu'
+    code: "TV",
+    country_code: "TUV",
+    name: "Tuvalu",
+    region: "PACIFIC"
   },
   {
-    code: 'UG',
-    name: 'Uganda'
+    code: "UG",
+    country_code: "UGA",
+    name: "Uganda",
+    region: "Worldwide"
   },
   {
-    code: 'UA',
-    name: 'Ukraine'
+    code: "UA",
+    country_code: "UKR",
+    name: "Ukraine",
+    region: "EUROPE"
   },
   {
-    code: 'AE',
-    name: 'United Arab Emirates'
+    code: "AE",
+    country_code: "ARE",
+    name: "United Arab Emirates",
+    region: "ASIA"
   },
   {
-    code: 'GB',
-    name: 'United Kingdom'
+    code: "GB",
+    country_code: "GBR",
+    name: "United Kingdom",
+    region: "EUROPE"
   },
   {
-    code: 'US',
-    name: 'United States Of America'
+    code: "US",
+    country_code: "USA",
+    name: "United States Of America",
+    region: "Worldwide"
   },
   {
-    code: 'UY',
-    name: 'Uruguay'
+    code: "UY",
+    country_code: "URY",
+    name: "Uruguay",
+    region: "Worldwide"
   },
   {
-    code: 'UM',
-    name: 'Us Minor Outlying Islands'
+    code: "UM",
+    country_code: "UMI",
+    name: "Us Minor Outlying Islands",
+    region: "PACIFIC"
   },
   {
-    code: 'UZ',
-    name: 'Uzbekistan'
+    code: "UZ",
+    country_code: "UZB",
+    name: "Uzbekistan",
+    region: "ASIA"
   },
   {
-    code: 'VU',
-    name: 'Vanuatu'
+    code: "VU",
+    country_code: "VUT",
+    name: "Vanuatu",
+    region: "PACIFIC"
   },
   {
-    code: 'VE',
-    name: 'Venezuela'
+    code: "VE",
+    country_code: "VEN",
+    name: "Venezuela",
+    region: "Worldwide"
   },
   {
-    code: 'VN',
-    name: 'Vietnam'
+    code: "VN",
+    country_code: "VNM",
+    name: "Vietnam",
+    region: "ASIA"
   },
   {
-    code: 'VG',
-    name: 'Virgin Islands, British'
+    code: "VG",
+    country_code: "VGB",
+    name: "Virgin Islands, British",
+    region: "Worldwide"
   },
   {
-    code: 'VI',
-    name: 'Virgin Islands, U.s.'
+    code: "VI",
+    country_code: "VIR",
+    name: "Virgin Islands, U.S.",
+    region: "Worldwide"
   },
   {
-    code: 'WF',
-    name: 'Wallis And Futuna'
+    code: "WF",
+    country_code: "WF",
+    name: "Wallis And Futuna",
+    region: "PACIFIC"
   },
   {
-    code: 'EH',
-    name: 'Western Sahara'
+    code: "EH",
+    country_code: "EH",
+    name: "Western Sahara",
+    region: "Worldwide"
   },
   {
-    code: 'YE',
-    name: 'Yemen'
+    code: "YE",
+    country_code: "YEM",
+    name: "Yemen",
+    region: "ASIA"
   },
   {
-    code: 'ZM',
-    name: 'Zambia'
+    code: "ZM",
+    country_code: "ZMB",
+    name: "Zambia",
+    region: "Worldwide"
   },
   {
-    code: 'ZW',
-    name: 'Zimbabwe'
+    code: "ZW",
+    country_code: "ZWE",
+    name: "Zimbabwe",
+    region: "Worldwide"
   }
-];
+]
 
 var getNames = function () {
   return countries.map(function (country) { return country.name })
@@ -1017,10 +1515,43 @@ var findByName = function (name) {
   })
 }
 
+var riskMap = {
+  worldwide: 1,
+  europe: 2,
+  asia: 3,
+  pacific: 4,
+  "new zealand": 5,
+  domestic: 6,
+}
+
+var getHighestRiskRegion = function (destinationCodes) {
+  var region = 'domestic'
+  var risk = 6
+
+  destinationCodes.forEach(function (destinationCode) {
+    var destination = findByCode(destinationCode)
+
+    if (!destination) {
+      throw new Error('Destination ' + destinationCode + ' could not be found')
+    }
+
+    var destinationRegion = destination.region.toLowerCase()
+
+    if (riskMap[destinationRegion] < risk) {
+      risk = riskMap[destinationRegion]
+      region = destinationRegion
+    }
+  })
+
+  return region
+}
+
 module.exports = {
   countries: countries,
   getNames: getNames,
   getCodes: getCodes,
   findByCode: findByCode,
-  findByName: findByName
+  findByName: findByName,
+  getHighestRiskRegion: getHighestRiskRegion,
+  riskMap: riskMap
 }
