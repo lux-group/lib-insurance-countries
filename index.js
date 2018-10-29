@@ -1525,8 +1525,12 @@ var riskMap = {
 }
 
 var getHighestRiskRegion = function (destinationCodes) {
-  var region = 'domestic'
-  var risk = 6
+  var highRiskCountry = null
+  var risk = null
+
+  if (!destinationCodes || !destinationCodes.length) {
+    throw new Error('Destinations are required')
+  }
 
   destinationCodes.forEach(function (destinationCode) {
     var destination = findByCode(destinationCode)
@@ -1537,13 +1541,13 @@ var getHighestRiskRegion = function (destinationCodes) {
 
     var destinationRegion = destination.region.toLowerCase()
 
-    if (riskMap[destinationRegion] < risk) {
+    if (!highRiskCountry || riskMap[destinationRegion] < risk) {
       risk = riskMap[destinationRegion]
-      region = destinationRegion
+      highRiskCountry = destinationCode
     }
   })
 
-  return region
+  return highRiskCountry
 }
 
 module.exports = {

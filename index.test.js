@@ -43,24 +43,20 @@ describe('findByCode', function () {
 })
 
 describe('getHighestRiskRegion', function () {
-  it('should return the destinations region if only one destination', function () {
-    expect(libInsuranceCountries.getHighestRiskRegion(['NZ'])).to.equal('new zealand')
+  it('should return the destination if only one destination', function () {
+    expect(libInsuranceCountries.getHighestRiskRegion(['NZ'])).to.equal('NZ')
   })
 
-  it('should return the hightest risk region if multiple destinations', function () {
-    expect(libInsuranceCountries.getHighestRiskRegion(['NZ', 'JP'])).to.equal('asia')
-  })
-
-  it('should return the worldwide region if multiple destinations', function () {
-    expect(libInsuranceCountries.getHighestRiskRegion(['AU', 'NZ', 'JP', 'EH'])).to.equal('worldwide')
-  })
-
-  it('should return domestic if travelling to in Australia', function () {
-    expect(libInsuranceCountries.getHighestRiskRegion(['AU'])).to.equal('domestic')
+  it('should return the highest risk destination if multiple destinations', function () {
+    expect(libInsuranceCountries.getHighestRiskRegion(['AU', 'NZ', 'JP'])).to.equal('JP')
   })
 
   it('should throw an error if destination cant be mapped', function () {
     expect(function () { return libInsuranceCountries.getHighestRiskRegion(['ZXD']) }).to.throw('Destination ZXD could not be found')
+  })
+
+  it('should throw an error if no destinations are passed', function () {
+    expect(function () { return libInsuranceCountries.getHighestRiskRegion([]) }).to.throw('Destinations are required')
   })
 
   it('all destination regions should be in the risk map', function () {
