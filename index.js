@@ -55,7 +55,7 @@
     code: "AT",
     country_code: "AUT",
     name: "Austria",
-    region: "Europe (Central & Western)"
+    region: "Europe (Central and Western)"
   },
   {
     code: "AZ",
@@ -191,7 +191,7 @@
     code: "CY",
     country_code: "CYP",
     name: "Cyprus",
-    region: "Europe (Central & Western)"
+    region: "Europe (Central and Western)"
   },
   {
     code: "CZ",
@@ -258,7 +258,7 @@
     code: "FR",
     country_code: "FRA",
     name: "France",
-    region: "Europe (Central & Western)"
+    region: "Europe (Central and Western)"
   },
   {
     code: "GF",
@@ -270,7 +270,7 @@
     code: "PF",
     country_code: "PYF",
     name: "French Polynesia",
-    region: "Fiji/Pacific Ocean"
+    region: "Fiji/Pacific Islands"
   },
   {
     code: "TF",
@@ -290,7 +290,7 @@
     code: "DE",
     country_code: "DEU",
     name: "Germany",
-    region: "Europe (Central & Western)"
+    region: "Europe (Central and Western)"
   },
   { code: "GH", country_code: "GHA", name: "Ghana", region: "Africa" },
   {
@@ -344,7 +344,7 @@
     code: "VA",
     country_code: "VAT",
     name: "Holy See (vatican City State)",
-    region: "Europe (Central & Western)"
+    region: "Europe (Central and Western)"
   },
   {
     code: "HN",
@@ -365,7 +365,7 @@
     code: "ID",
     country_code: "IDN",
     name: "Indonesia",
-    region: "Indonesia (excluding Bali)"
+    region: "Indonesia (excl. Bali)"
   },
   {
     code: "IR",
@@ -386,7 +386,7 @@
     code: "IT",
     country_code: "ITA",
     name: "Italy",
-    region: "Europe (Central & Western)"
+    region: "Europe (Central and Western)"
   },
   {
     code: "JM",
@@ -443,7 +443,7 @@
     code: "LU",
     country_code: "LUX",
     name: "Luxembourg",
-    region: "Europe (Central & Western)"
+    region: "Europe (Central and Western)"
   },
   { code: "MO", country_code: "MAC", name: "Macao", region: "Other Asia" },
   {
@@ -461,7 +461,7 @@
     code: "MT",
     country_code: "MLT",
     name: "Malta",
-    region: "Europe (Central & Western)"
+    region: "Europe (Central and Western)"
   },
   {
     code: "MH",
@@ -528,7 +528,7 @@
     code: "NL",
     country_code: "NLD",
     name: "Netherlands",
-    region: "Europe (Central & Western)"
+    region: "Europe (Central and Western)"
   },
   {
     code: "NC",
@@ -624,7 +624,7 @@
     code: "PT",
     country_code: "PRT",
     name: "Portugal",
-    region: "Europe (Central & Western)"
+    region: "Europe (Central and Western)"
   },
   {
     code: "PR",
@@ -731,7 +731,7 @@
     code: "ES",
     country_code: "ESP",
     name: "Spain",
-    region: "Europe (Central & Western)"
+    region: "Europe (Central and Western)"
   },
   {
     code: "LK",
@@ -758,7 +758,7 @@
     code: "CH",
     country_code: "CHE",
     name: "Switzerland",
-    region: "Europe (Central & Western)"
+    region: "Europe (Central and Western)"
   },
   {
     code: "SY",
