@@ -364,7 +364,7 @@
   {
     code: "ID",
     country_code: "IDN",
-    name: "Indonesia",
+    name: "Indonesia (excl. Bali)",
     region: "Indonesia (excl. Bali)"
   },
   {
