@@ -267,4 +267,9 @@
   { name: "Zimbabwe", code: "Zimbabwe" }
 ]
 
-export default countries
+const getNames = () => countries.map(c => c.name)
+
+module.exports = {
+  countries,
+  getNames
+}
