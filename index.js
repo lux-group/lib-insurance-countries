@@ -14,7 +14,6 @@
   { name: "Antarctica", code: "Antarctica", country_code: "ATA" },
   { name: "French Southern Territories", code: "French Southern Territories", country_code: "ATF" },
   { name: "Antigua and Barbuda", code: "Antigua and Barbuda", country_code: "ATG" },
-  { name: "Australia", code: "Australia", country_code: "AUS" },
   { name: "Austria", code: "Austria", country_code: "AUT" },
   { name: "Azerbaijan", code: "Azerbaijan", country_code: "AZE" },
   { name: "Burundi", code: "Burundi", country_code: "BDI" },
