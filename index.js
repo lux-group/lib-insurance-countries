@@ -230,22 +230,13 @@
   { name: "Zimbabwe", code: "Zimbabwe", country_code: "ZWE" },
   { name: "Bali", code: "Bali", country_code: "BAL" },
   { name: "Tahiti", code: "Tahiti", country_code: "TAH" },
-  { name: "Worldwide", code: "Worldwide", country_code: "WWD" },
-  { name: "Europe", code: "Europe", country_code: "ERP" },
-  { name: "South America", code: "South America", country_code: "SAM" },
-  { name: "Asia", code: "Asia", country_code: "ASA" },
-  { name: "Pacific", code: "Pacific", country_code: "PAC" },
-  { name: "Africa", code: "Africa", country_code: "AFR" },
   { name: "Antarctic Flyover", code: "Antarctic Flyover", country_code: "ANF" },
   { name: "Caroline Islands", code: "Caroline Islands", country_code: "CAI" },
-  { name: "Australian Waters", code: "Australian Waters", country_code: "AUW" },
   { name: "Bonaire, Sint Eustatius and Saba", code: "Bonaire, Sint Eustatius and Saba", country_code: "BES" },
   { name: "Curacao", code: "Curacao", country_code: "CUW" },
   { name: "Sint Maarten", code: "Sint Maarten", country_code: "SXM" },
   { name: "Arctic Circle", code: "Arctic Circle", country_code: "ARC" },
   { name: "Caribbean Islands", code: "Caribbean Islands", country_code: "CBI" },
-  { name: "Central America", code: "Central America", country_code: "CNA" },
-  { name: "Middle East", code: "Middle East", country_code: "MDE" },
   { name: "South Pacific Cruise", code: "South Pacific Cruise", country_code: "SPC" },
   { name: "Mediterranean Cruise", code: "Mediterranean Cruise", country_code: "MED" },
   { name: "European River Cruise", code: "European River Cruise", country_code: "EUC" },
@@ -253,10 +244,7 @@
   { name: "Alaskan Cruise", code: "Alaskan Cruise", country_code: "ALI" },
   { name: "International Cruise", code: "International Cruise", country_code: "CRZ" },
   { name: "Hawaiian Islands", code: "Hawaiian Islands", country_code: "HI" },
-  { name: "Asia (excl. Nepal)", code: "Asia (excl. Nepal)", country_code: "AEN" },
-  { name: "Asia (incl. Nepal)", code: "Asia (incl. Nepal)", country_code: "AIN" },
-  { name: "Kosovo", code: "Kosovo", country_code: "XKX" },
-  { name: "Worldwide (excluding USA & Nepal)", code: "Worldwide (excluding USA & Nepal)", country_code: "WWE" }
+  { name: "Kosovo", code: "Kosovo", country_code: "XKX" }
 ]
 
 const getNames = () => countries.map(c => c.name)
