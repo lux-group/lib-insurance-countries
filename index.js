@@ -244,7 +244,13 @@
 
 const getNames = () => countries.map(c => c.name)
 
+const getCodeByName = name => {
+  const country = countries.find(c => c.name === name)
+  return country ? country.code : undefined;
+}
+
 module.exports = {
   countries,
-  getNames
+  getNames,
+  getCodeByName
 }
