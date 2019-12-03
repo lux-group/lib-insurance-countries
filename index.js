@@ -237,12 +237,6 @@
   { name: "Sint Maarten", code: "Sint Maarten", country_code: "SXM" },
   { name: "Arctic Circle", code: "Arctic Circle", country_code: "ARC" },
   { name: "Caribbean Islands", code: "Caribbean Islands", country_code: "CBI" },
-  { name: "South Pacific Cruise", code: "South Pacific Cruise", country_code: "SPC" },
-  { name: "Mediterranean Cruise", code: "Mediterranean Cruise", country_code: "MED" },
-  { name: "European River Cruise", code: "European River Cruise", country_code: "EUC" },
-  { name: "Caribbean Cruise", code: "Caribbean Cruise", country_code: "CAR" },
-  { name: "Alaskan Cruise", code: "Alaskan Cruise", country_code: "ALI" },
-  { name: "International Cruise", code: "International Cruise", country_code: "CRZ" },
   { name: "Hawaiian Islands", code: "Hawaiian Islands", country_code: "HI" },
   { name: "Kosovo", code: "Kosovo", country_code: "XKX" }
 ]
