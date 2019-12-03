@@ -248,8 +248,14 @@ const getCodeByName = name => {
   return country ? country.code : undefined;
 }
 
+const getNameByCode = code => {
+  const country = countries.find(c => c.code === code)
+  return country ? country.name : undefined;
+}
+
 module.exports = {
   countries,
   getNames,
-  getCodeByName
+  getCodeByName,
+  getNameByCode
 }
