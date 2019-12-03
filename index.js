@@ -222,6 +222,7 @@
   { name: "Virgin Islands, British", code: "Virgin Islands, British", country_code: "VGB" },
   { name: "Virgin Islands, U.S.", code: "Virgin Islands, U.S.", country_code: "VIR" },
   { name: "Viet Nam", code: "Viet Nam", country_code: "VNM" },
+  { name: "Vietnam", code: "Viet Nam", country_code: "VNM" },
   { name: "Vanuatu", code: "Vanuatu", country_code: "VUT" },
   { name: "Wallis and Futuna", code: "Wallis and Futuna", country_code: "WLF" },
   { name: "Samoa", code: "Samoa", country_code: "WSM" },
