@@ -241,15 +241,25 @@
   { name: "Kosovo", code: "Kosovo", country_code: "XKX" }
 ]
 
-const getNames = () => countries.map(c => c.name)
+function getNames() {
+  return countries.map(function(c) {
+    return c.name
+  })
+}
 
-const getCodeByName = name => {
-  const country = countries.find(c => c.name === name)
+function getCodeByName(name) {
+  var country = countries.find(function(c) {
+    return c.name === name
+  })
+
   return country ? country.code : undefined;
 }
 
-const getNameByCode = code => {
-  const country = countries.find(c => c.code === code)
+function getNameByCode(code) {
+  var country = countries.find(function(c) {
+    return c.code === code
+  })
+
   return country ? country.name : undefined;
 }
 
