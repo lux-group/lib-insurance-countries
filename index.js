@@ -38,7 +38,6 @@
   { name: "Cocos (Keeling) Islands", code: "Cocos (Keeling) Islands", country_code: "CCK" },
   { name: "Switzerland", code: "Switzerland", country_code: "CHE" },
   { name: "Chile", code: "Chile", country_code: "CHL" },
-  { name: "China", code: "China", country_code: "CHN" },
   { name: "Côte d'Ivoire", code: "Côte d'Ivoire", country_code: "CIV" },
   { name: "Cameroon", code: "Cameroon", country_code: "CMR" },
   { name: "Democratic Republic of the Congo", code: "Democratic Republic of the Congo", country_code: "COD" },
