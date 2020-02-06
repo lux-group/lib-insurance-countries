@@ -183,7 +183,6 @@
   { name: "Singapore", code: "Singapore", country_code: "SGP" },
   { name: "South Georgia and the South Sandwich Islands", code: "South Georgia and the South Sandwich Islands", country_code: "SGS" },
   { name: "Saint Helena, Ascension and Tristan da Cunha", code: "Saint Helena, Ascension and Tristan da Cunha", country_code: "SHN" },
-  { name: "Svalbard and Jan Mayen", code: "Svalbard and Jan Mayen", country_code: "SJM" },
   { name: "Solomon Islands", code: "Solomon Islands", country_code: "SLB" },
   { name: "Sierra Leone", code: "Sierra Leone", country_code: "SLE" },
   { name: "El Salvador", code: "El Salvador", country_code: "SLV" },
@@ -234,10 +233,9 @@
   { name: "Bonaire, Sint Eustatius and Saba", code: "Bonaire, Sint Eustatius and Saba", country_code: "BES" },
   { name: "Curacao", code: "Curacao", country_code: "CUW" },
   { name: "Sint Maarten", code: "Sint Maarten", country_code: "SXM" },
-  { name: "Arctic Circle", code: "Arctic Circle", country_code: "ARC" },
-  { name: "Caribbean Islands", code: "Caribbean Islands", country_code: "CBI" },
-  { name: "Hawaiian Islands", code: "Hawaiian Islands", country_code: "HI" },
-  { name: "Kosovo", code: "Kosovo", country_code: "XKX" }
+  { name: "Arctic Circle", code: "Worldwide (Arctic Circle)", country_code: "ARC" },
+  { name: "Caribbean Islands", code: "Caribbean Cruise", country_code: "CBI" },
+  { name: "Hawaiian Islands", code: "United States (Hawaii)", country_code: "HI" }
 ]
 
 function getNames() {
