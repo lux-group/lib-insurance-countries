@@ -8,7 +8,7 @@ const countries = universalCountries
 
 const cgCountries = universalCountries.concat(cgSpecificCountries);
 
-const nibCountries = universalCountries.concat(cgSpecificCountries);
+const nibCountries = universalCountries.concat(nibSpecificCountries);
 
 function getNames() {
   return countries.map(function (c) {
