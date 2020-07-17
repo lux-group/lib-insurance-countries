@@ -1377,7 +1377,7 @@ const universalCountries = [
     name: "Antarctic Flyover",
     code: "Antarctic Flyover",
     country_code: "ANF",
-    two_letter_country_code: "AU",
+    two_letter_country_code: undefined,
   },
   {
     name: "Caroline Islands",
