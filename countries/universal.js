@@ -87,7 +87,7 @@ const universalCountries = [
     name: "Australian Waters (cruises)",
     code: "Australian Waters",
     country_code: "AUW",
-    two_letter_country_code: "undefined",
+    two_letter_country_code: "AU",
   },
   {
     name: "Azerbaijan",
