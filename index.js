@@ -45,7 +45,7 @@ function getNameByCode(code) {
   return country ? country.name : undefined;
 }
 
-function getNameByTwoLetterCode() {
+function getNameByTwoLetterCode(code) {
   var country = countries.find(function (c) {
     return c.two_letter_country_code === code;
   });
