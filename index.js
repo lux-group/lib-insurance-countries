@@ -1,4 +1,4 @@
-﻿﻿const nibSpecificCountries = require("./countries/nib");
+﻿const nibSpecificCountries = require("./countries/nib");
 const cgSpecificCountries = require("./countries/coverGenius");
 const universalCountries = require("./countries/universal");
 
