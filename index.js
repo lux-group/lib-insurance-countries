@@ -45,6 +45,14 @@ function getNameByCode(code) {
   return country ? country.name : undefined;
 }
 
+function getNameByTwoLetterCode() {
+  var country = countries.find(function (c) {
+    return c.two_letter_country_code === code;
+  });
+
+  return country ? country.name : undefined;
+}
+
 function getTwoLetterCodeByName(name) {
   var country = countries.find(function (c) {
     return c.name === name;
@@ -62,5 +70,6 @@ module.exports = {
   getNibNames,
   getCodeByName,
   getNameByCode,
+  getNameByTwoLetterCode,
   getTwoLetterCodeByName,
 };
