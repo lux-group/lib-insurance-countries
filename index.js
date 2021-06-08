@@ -2,9 +2,10 @@
 const cgSpecificCountries = require("./countries/coverGenius");
 const universalCountries = require("./countries/universal");
 
-const countries = universalCountries
-  .concat(nibSpecificCountries)
-  .concat(cgSpecificCountries);
+// The order matters here - be careful
+const countries = nibSpecificCountries
+  .concat(cgSpecificCountries)
+  .concat(universalCountries);
 
 const cgCountries = universalCountries.concat(cgSpecificCountries);
 
