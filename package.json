@@ -3,6 +3,9 @@
   "version": "4.5.0",
   "description": "",
   "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brandsexclusive/lib-insurance-countries.git"
@@ -12,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/brandsexclusive/lib-insurance-countries/issues"
   },
-  "homepage": "https://github.com/brandsexclusive/lib-insurance-countries#readme"
+  "homepage": "https://github.com/brandsexclusive/lib-insurance-countries#readme",
+  "devDependencies": {
+    "jest": "^27.0.4"
+  }
 }
