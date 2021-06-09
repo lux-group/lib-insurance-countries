@@ -1,10 +1,11 @@
-﻿﻿const nibSpecificCountries = require("./countries/nib");
+﻿const nibSpecificCountries = require("./countries/nib");
 const cgSpecificCountries = require("./countries/coverGenius");
 const universalCountries = require("./countries/universal");
 
-const countries = universalCountries
-  .concat(nibSpecificCountries)
-  .concat(cgSpecificCountries);
+// The order matters here - be careful
+const countries = nibSpecificCountries
+  .concat(cgSpecificCountries)
+  .concat(universalCountries);
 
 const cgCountries = universalCountries.concat(cgSpecificCountries);
 
@@ -44,6 +45,14 @@ function getNameByCode(code) {
   return country ? country.name : undefined;
 }
 
+function getNameByTwoLetterCode(code) {
+  var country = countries.find(function (c) {
+    return c.two_letter_country_code === code;
+  });
+
+  return country ? country.name : undefined;
+}
+
 function getTwoLetterCodeByName(name) {
   var country = countries.find(function (c) {
     return c.name === name;
@@ -61,5 +70,6 @@ module.exports = {
   getNibNames,
   getCodeByName,
   getNameByCode,
+  getNameByTwoLetterCode,
   getTwoLetterCodeByName,
 };
